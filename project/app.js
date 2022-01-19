@@ -1,8 +1,8 @@
 
-var express = require('express');
+const express = require('express');
+const path = require("path");
 
-
-var app = express();
+const app = express();
 
 // 3000 포트로 서버 오픈
 app.listen(3000, function() {
@@ -11,7 +11,7 @@ app.listen(3000, function() {
 
 app.get('/', function(req,res) {
     res.sendFile(__dirname + "/public/index.html")
-    console.log("main");
+    //console.log("main");
 });
 
-app.use(express.static('public'));
+app.use(express.static('public'));//public 디렉토리에 포함된 파일을 로드
