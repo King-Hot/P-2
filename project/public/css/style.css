@@ -1,5 +1,27 @@
 * {
-    margin : 0;
-    padding : 0;
-    background-color: #f8d1d1;
+    margin : auto;
+    padding : auto;
+}
+
+.header{
+    display : flex;
+    padding : 10px 10px 10px 10px;
+    color : white;
+    background-color: #045D8B; 
+}
+
+/*flex를 0.1씩 주어서 양쪽 끝이 어긋나가는 문제 해결*/
+#menubutton{
+    flex : 0.1;
+    text-align : left;
+}
+
+#title{
+    flex : 1;
+    text-align : center;
+}
+
+#loginout{
+    flex : 0.1;
+    text-align : right;
 }

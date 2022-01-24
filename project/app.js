@@ -1,5 +1,7 @@
 
 const express = require('express');
+const mysql = require('mysql');
+//const db = require("../db.js");
 const path = require("path");
 
 const app = express();
