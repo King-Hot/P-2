@@ -25,3 +25,9 @@
     flex : 0.1;
     text-align : right;
 }
+
+.location{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    border : 1px solid black;
+}
